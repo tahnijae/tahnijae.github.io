@@ -76,6 +76,9 @@ header{
 #landing-subtitle{
     margin: 0;
 }
+#landing-logo-text h1{
+    font-size: 2rem;
+}
 p{
     width: 100%;
     max-width: 80%;
@@ -84,6 +87,9 @@ p{
 .icons{
     display: flex;
     justify-content: space-evenly;
+}
+section {
+    padding: 2rem;
 }
 footer {
     bottom: 0;
