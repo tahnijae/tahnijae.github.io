@@ -10,9 +10,9 @@ html {
     background-color: rgba(0, 0, 0, 0);
     scroll-behavior: smooth;
 }
-a:link { text-decoration: none; }
-a:visited { 
+a:link, a:visited, a {
     text-decoration: none; 
+    color: goldenrod;
 }
 a:hover{
     text-decoration: underline;
@@ -91,6 +91,7 @@ p{
 section {
     padding: 2rem;
 }
+
 footer {
     bottom: 0;
     width: 100%;
